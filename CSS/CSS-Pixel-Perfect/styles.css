@@ -3,8 +3,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(215, 73, 73);
+    font-family: "Roboto", sans-serif;
+}
+
 h1 {
-text-shadow: 0px 7px 7px black;;
+    text-shadow: 0px 4px 4px black;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .firstp{
@@ -22,21 +29,28 @@ text-align: right;
 }
 
 footer {
-    background-color: rgb(58, 58, 58);
+    height: 70px;
+    background-color: rgb(58, 58, 58, 1);
     text-align: center;
     color: white;
     padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 500px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .profile {
-width: 300px;
+width: 200px;
 }
 
 .linkedin {
-    width: 100px;
+    width: 30px;
 }
 
 .whatsapp {
-    width: 100px;
+    width: 30px;
+}
+
+.name {
+    font-weight: bold;
 }
